@@ -31,10 +31,13 @@ get('/books') do
     <h1>Some books to get you started</h1>
     <ul>
       <li>Dalva</li>
+      <img src='img/dalva.jpg' alt='book cover'>
       <li>The Woman Lit by Fireflies</li>
+      <img src='img/fireflies.jpg' alt='book cover'>
       <li>Returning to Earth: A Novel</li>
+      <img src='img/earth.jpg' alt='book cover'>
     </ul>
-  </div>  
+  </div>
   </body>
   </html>"
 end
