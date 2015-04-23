@@ -12,5 +12,23 @@ get('/') do
     <img src='/img/harrison.jpg' alt='photo of Jim Harrison'/>
     <h2>The best American writer you've never read.</h2>
     <h2>Please fix that. Now.</h2>
+    <p><a href='/books'>Here are some great books to get you started!</a></p>
+  </html>"
+end
+
+get('/books') do
+  "<html>
+  <head>
+    <title>Books</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Some books to get you started</h1>
+    <ul>
+      <li>Dalva</li>
+      <li>The Woman Lit by Fireflies</li>
+      <li>Returning to Earth: A Novel</li>
+    </ul>
+  </body>
   </html>"
 end
