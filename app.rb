@@ -7,6 +7,7 @@ get('/') do
   <head>
     <title>Jim Harrison</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/writer.css' media='all' type='text/css'
   </head>
   <body>
   <div class='container'>
@@ -26,16 +27,17 @@ get('/books') do
   <head>
     <title>Books</title>
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/writer.css' media='all' type='text/css'
   </head>
   <body>
   <div class='container'>
     <h1>Some books to get you started</h1>
     <ul>
-      <li>Dalva</li>
+      <li><p>Dalva</p></li>
       <img src='img/dalva.jpg' alt='book cover'>
-      <li>The Woman Lit by Fireflies</li>
+      <li><p>The Woman Lit by Fireflies</p></li>
       <img src='img/fireflies.jpg' alt='book cover'>
-      <li>Returning to Earth: A Novel</li>
+      <li><p>Returning to Earth: A Novel<p></li>
       <img src='img/earth.jpg' alt='book cover'>
     </ul>
   </div>
