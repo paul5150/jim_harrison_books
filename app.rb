@@ -14,6 +14,7 @@ get('/') do
     <img src='/img/harrison.jpg' alt='photo of Jim Harrison'/>
     <h2>The best American writer you've never read.</h2>
     <h2>Please fix that. Now.</h2>
+    <p>Don't get me wrong. If you'd rather read the latest novel by some sitcom star, go for it. </p>
     <p><a href='/books'>Here are some great books to get you started!</a></p>
   </div>
   </body>
